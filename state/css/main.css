@@ -450,4 +450,37 @@ body, p, div, span, a, img, strong {
         float: none;
         margin-top: 5px;
     }
+    .status{
+        width: 70%;
+        height: 60%;
+        padding-right: 0;
+    }
+    .musicTags{
+        display: none;
+    }
+    .musicList{
+        display: none;
+    }
+    .musicLists{
+        margin-top: 0;
+    }
+    .playRight{
+        display: none;
+    }
+    .musicLists ul li span:nth-child(2){
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .musicLists ul li span:nth-child(3){
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .musicLists ul li span:nth-child(4){
+        display: none;
+    }
+    .musicLists ul li span:nth-child(5){
+        display: none;
+    }
 }
