@@ -4,17 +4,26 @@
         var today;
         var a;
         $(function(){
+            // 兼容微信浏览器的音乐自动播放问题
+            var media = document.getElementById("bg-music");
+            if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
+                WeixinJSBridge.invoke('getNetworkType', {}, function (res) {
+                    // 在这里拿到 e.err_msg, 这里面就包含了所有的网络类型
+                    // alert(res.err_msg);
+                    media.play();
+                });
+            }
             // 兼容手机浏览器自动播放音乐的问题
-            document.addEventListener('DOMContentLoaded', function () {    
-                function audioAutoPlay() {        
-                    var audio = document.getElementById('bg-music'); 
-                    audio.play();        
-                    document.addEventListener("WeixinJSBridgeReady", function () {            
-                        audio.play();        
-                    }, false);    
-                }    
-                audioAutoPlay();
-            });
+//             document.addEventListener('DOMContentLoaded', function () {    
+//                 function audioAutoPlay() {        
+//                     var audio = document.getElementById('bg-music'); 
+//                     audio.play();        
+//                     document.addEventListener("WeixinJSBridgeReady", function () {            
+//                         audio.play();        
+//                     }, false);    
+//                 }    
+//                 audioAutoPlay();
+//             });
             // 请求获得位置
             // $.getScript('http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js', function(_result) {
             //     if (remote_ip_info.ret == '1') {
