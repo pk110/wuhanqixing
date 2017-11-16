@@ -28,35 +28,37 @@
         
         // 移入显示天气
         function findWeather() {
-                    $.ajax({
-                        url:"./../../json/weather.json",
-                        // url:"http://api.map.baidu.com/telematics/v3/weather?output=json&ak=0A5bc3c4fb543c8f9bc54b77bc155724",
-                        type:"get",
-                        // data:{location:city},
-                        /*预期服务器端返回的数据类型，假设我现在跨域了，我就改成jsonp 就可以了 */
-                    // dataType: 'jsonp',
-                    success:function(data){
-                        // //百度那边的 数据已经回来，我现在要解析这个数据.
-                        $('.weatherBox_one span').text(data.weather.today);
-                        $('.weatherBox_one p').text(data.weather.status+'   '+data.weather.temperature);
-                        var weatherData = data.weather.statusArray.map(function(a,b){
-                            if(b == 0){
-                                today = '明天'; 
-                            }else if(b == 1){
-                                today = '后天';
-                            }else{
-                                today = '大后天';
-                            }
-                            return "<div class='weatherBox_ul'><div class='weatherBox_ul_left'><span>"+today+" :</span><span>"+a.status+"</span></div><div class='weatherBox_ul_right'>"+a.temperature+"</div></div>"
-                        })
-                        $('.weatherBox_two').empty().append(weatherData);
-                        $('.weatherBox').fadeIn();
-                    }
-                })
-            }
-            // 移出隐藏天气
-            function leaveWeather(){
-                $('.weatherBox').fadeOut();
+                if(a == true){
+                        $('.weatherBox').fadeOut();
+                        a = false;
+                }else{
+                        $.ajax({
+                            url:"./../../json/weather.json",
+                            // url:"http://api.map.baidu.com/telematics/v3/weather?output=json&ak=0A5bc3c4fb543c8f9bc54b77bc155724",
+                            type:"get",
+                            // data:{location:city},
+                            /*预期服务器端返回的数据类型，假设我现在跨域了，我就改成jsonp 就可以了 */
+                        // dataType: 'jsonp',
+                        success:function(data){
+                            // //百度那边的 数据已经回来，我现在要解析这个数据.
+                            $('.weatherBox_one span').text(data.weather.today);
+                            $('.weatherBox_one p').text(data.weather.status+'   '+data.weather.temperature);
+                            var weatherData = data.weather.statusArray.map(function(a,b){
+                                if(b == 0){
+                                    today = '明天'; 
+                                }else if(b == 1){
+                                    today = '后天';
+                                }else{
+                                    today = '大后天';
+                                }
+                                return "<div class='weatherBox_ul'><div class='weatherBox_ul_left'><span>"+today+" :</span><span>"+a.status+"</span></div><div class='weatherBox_ul_right'>"+a.temperature+"</div></div>"
+                            })
+                            $('.weatherBox_two').empty().append(weatherData);
+                            $('.weatherBox').fadeIn();
+                        }
+                    })
+                    a = true;
+                }
             }
             // 头部切换选项
             $('.header-left ul li').each(function(a,b){
