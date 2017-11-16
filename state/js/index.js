@@ -343,3 +343,9 @@
                 $('.header-left ul').slideToggle();
             }
 
+
+            // 监听body事件
+            $("body").on("click",function(){
+                $('.weatherBox').css('display','none');
+                $('.header-left ul').css('display','none');
+            })
