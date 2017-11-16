@@ -301,6 +301,7 @@
                 img : './state/images/sky0.jpg'//图片路径
             };
             function show3d(){
+                alert('开始3d动画！');
                 var substrings = $('.container-fluid').css('background-image');
                 var substringNub = substrings.indexOf('/state/images/');
                 var img = '.'+substrings.slice(substringNub,-2);
