@@ -319,12 +319,10 @@
                     fragmentConfigPhone.img = img;
                     fragmentImg(fragmentConfigPhone);
                     $('body').css('overflow','hidden');
-                    $('.container-fluid').css({'background-position':'center center','background-size':'cover'});
                 }else{
                     fragmentConfigPc.img = img;
                     fragmentImg(fragmentConfigPc);
                     $('body').css('overflow','hidden');
-                    $('.container-fluid').css({'background-position':'center center','background-size':'cover'});
                 }
             }
 
