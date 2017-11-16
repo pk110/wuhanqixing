@@ -1,0 +1,32 @@
+{
+            "local": "武汉市",
+            "test2": "123456789",
+            "status": {   
+                "statusArray": [
+                    {
+                        "datatime":"17/11/16",
+                        "time":"24天前 上海",
+                        "text":"又来上海出差,天气不错哦！！！",
+                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
+                    },
+                    {
+                        "datatime":"17/11/16",
+                        "time":"29天前 北京",
+                        "text":"北京的雾霾真重啊！！！",
+                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
+                    },
+                     {
+                        "datatime":"17/11/17",
+                        "time":"50天前 西藏",
+                        "text":"好想在这里呆一辈子哦！！！",
+                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
+                    },
+                    {
+                        "datatime":"17/11/18",
+                        "time":"很多天前 杭州",
+                        "text":"我看到马云爸爸了！！！",
+                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
+                    }
+                ]
+          }
+}

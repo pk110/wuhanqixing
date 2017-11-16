@@ -1,0 +1,21 @@
+{
+            "local": "武汉市",
+            "test2": "123456789",
+            "weather": {   
+                "today":"2017/11/15",
+                "status":"多云",
+                "temperature":"17°～21°",
+                "statusArray": [
+                    {
+                        "status":"阴转小雨",
+                        "temperature":"14°～17"
+                    },
+                     {
+                        "status":"小雨转晴",
+                        "temperature":"10°～15"},
+                    {
+                        "status":"多云",
+                        "temperature":"13°～16"}
+                ]
+          }
+}
