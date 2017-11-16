@@ -297,7 +297,7 @@
                 container : '.img-flex',//显示容器
                 line : 10,//多少行
                 column : 10,//多少列
-                width : 640,//显示容器的宽度
+                width : 1200,//显示容器的宽度
                 animeTime : 10000,//最长动画时间,图片的取值将在 animeTime*0.33 + animeTime*0.66之前取值 
                 img : './state/images/sky0.jpg'//图片路径
             };
@@ -316,9 +316,10 @@
                 var img = '.'+substrings.slice(substringNub,-2);
                 $('.img-flex').fadeIn();
                 if(document.body.clientWidth <= 640){
-                    fragmentConfigPc.img = img;
+                    fragmentConfigPhone.img = img;
                     fragmentImg(fragmentConfigPhone);
                     $('body').css('overflow','hidden');
+                        alert('执行完手机版的');
                 }else{
                     fragmentConfigPc.img = img;
                     fragmentImg(fragmentConfigPc);
