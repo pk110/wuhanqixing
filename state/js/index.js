@@ -316,7 +316,7 @@
                 var img = '.'+substrings.slice(substringNub,-2);
                 $('.img-flex').fadeIn();
                 if(document.body.clientWidth <= 640){
-                    fragmentConfigPhone.img = img;
+                    fragmentConfigPc.img = img;
                     fragmentImg(fragmentConfigPhone);
                     $('body').css('overflow','hidden');
                 }else{
