@@ -344,8 +344,3 @@
             }
 
 
-            // 监听body事件
-            $(".container-fluid").on("click",function(){
-                $('.weatherBox').css('display','none');
-                $('.header-left ul').css('display','none');
-            })
