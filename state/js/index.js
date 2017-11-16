@@ -351,3 +351,7 @@
             }
 
 
+            $('.container-fluid').on('click',function(){
+                $('.weatherBox').fadeOut();
+                $('.header-left ul').fadeOut();
+            })
