@@ -68,9 +68,11 @@
                             // 写判断当前点击的是哪个栏目
                             if($(this).text() == '首页'){
                                 $('.home').fadeIn();
+                                $('.home').css('z-index','5');
                                 $('.status').empty();
                             }else if($(this).text() == '状态'){
                                 $('.home').fadeOut();
+                                $('.home').css('z-index','-10');
                                 $('.loading').css('display','block');
                                 setTimeout(function(){
                                         $.ajax({
@@ -97,6 +99,7 @@
                                 },1000)
                             }else if($(this).text() == '音乐'){   
                                 $('.home').fadeOut();
+                                $('.home').css('z-index','-10');
                                 $('.status').css('overflow-y','hidden');
                                 $('.loading').css('display','block');
                                 setTimeout(function(){
@@ -147,9 +150,11 @@
                              // 写判断当前点击的是哪个栏目
                             if($(this).text() == '首页'){
                                 $('.home').fadeIn();
+                                $('.home').css('z-index','5');
                                 $('.status').empty();
                             }else if($(this).text() == '状态'){
                                 $('.home').fadeOut();
+                                $('.home').css('z-index','-10');
                                 $('.loading').css('display','block');
                                 setTimeout(function(){
                                         $.ajax({
@@ -176,6 +181,7 @@
                                 },1000)
                             }else if($(this).text() == '音乐'){   
                                 $('.home').fadeOut();
+                                $('.home').css('z-index','-10');
                                 $('.status').css('overflow-y','hidden');
                                 $('.loading').css('display','block');
                                 setTimeout(function(){
@@ -229,6 +235,7 @@
             function setting(){
                 if(toggleBottom == true){
                     // 对应设置这块
+                    $('.home').css('z-index','-10');
                     $('.footer').animate({bottom:-30,opacity:0},'slow');
                     $('.home').animate({bottom:-30,opacity:0},'slow');
                     $('.setting').css({'display':'block','z-index':999});
@@ -288,7 +295,7 @@
                 container : '.img-flex',//显示容器
                 line : 10,//多少行
                 column : 10,//多少列
-                width : 1200,//显示容器的宽度
+                width : 800,//显示容器的宽度
                 animeTime : 10000,//最长动画时间,图片的取值将在 animeTime*0.33 + animeTime*0.66之前取值 
                 img : './state/images/sky0.jpg'//图片路径
             };
