@@ -322,7 +322,7 @@
                 img : './state/images/sky0.jpg'//图片路径
             };
             function show3d(){
-                alert('开始3d动画！');
+                alert('执行3d动画！');
                 var substrings = $('.container-fluid').css('background-image');
                 var substringNub = substrings.indexOf('/state/images/');
                 var img = '.'+substrings.slice(substringNub,-2);
@@ -331,7 +331,6 @@
                     fragmentConfigPhone.img = img;
                     fragmentImg(fragmentConfigPhone);
                     $('body').css('overflow','hidden');
-                        alert('执行完手机版的');
                 }else{
                     fragmentConfigPc.img = img;
                     fragmentImg(fragmentConfigPc);
