@@ -322,7 +322,7 @@
                 img : './state/images/sky0.jpg'//图片路径
             };
             function show3d(){
-                alert('执行3d动画！');
+                alert('执行3d动画！(如没有效果，请在pc端观看！)');
                 var substrings = $('.container-fluid').css('background-image');
                 var substringNub = substrings.indexOf('/state/images/');
                 var img = '.'+substrings.slice(substringNub,-2);
