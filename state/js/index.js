@@ -99,10 +99,10 @@
                                             success:function(data){
                                                 // //百度那边的 数据已经回来，我现在要解析这个数据.
                                                 var statusData = data.status.statusArray.map(function(a,b){
-                                                    var imgs = a.images.split(',');
-                                                    for(var i = 0;i<imgs.length;i++){
-                                                        return '<li><h1>'+a.datatime+'</h1><div class="status_time"><span>'+a.time+'</span></div><p>'+a.text+'</p><div class="status_img"><img src="'+imgs[i]+'" alt=""></div></li>';
-                                                    }
+//                                                     var imgs = a.images.split(',');
+//                                                     for(var i = 0;i<imgs.length;i++){
+                                                        return '<li><h1>'+a.datatime+'</h1><div class="status_time"><span>'+a.time+'</span></div><p>'+a.text+'</p><div class="status_img"><img src="'+a.images+'" alt=""></div></li>';
+//                                                     }
                                                 })
                                                 $('.status').empty().append(statusData);
                                                 $('.status').css('overflow-y','auto');
@@ -181,10 +181,10 @@
                                             success:function(data){
                                                 // //百度那边的 数据已经回来，我现在要解析这个数据.
                                                 var statusData = data.status.statusArray.map(function(a,b){
-                                                    var imgs = a.images.split(',');
-                                                    for(var i = 0;i<imgs.length;i++){
-                                                        return '<li><h1>'+a.datatime+'</h1><div class="status_time"><span>'+a.time+'</span></div><p>'+a.text+'</p><div class="status_img"><img src="'+imgs[i]+'" alt=""></div></li>';
-                                                    }
+//                                                     var imgs = a.images.split(',');
+//                                                     for(var i = 0;i<imgs.length;i++){
+                                                        return '<li><h1>'+a.datatime+'</h1><div class="status_time"><span>'+a.time+'</span></div><p>'+a.text+'</p><div class="status_img"><img src="'+a.images+'" alt=""></div></li>';
+//                                                     }
                                                 })
                                                 $('.status').empty().append(statusData);
                                                 $('.status').css('overflow-y','auto');
