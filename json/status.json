@@ -4,28 +4,28 @@
             "status": {   
                 "statusArray": [
                     {
-                        "datatime":"17/11/16",
-                        "time":"24天前 上海",
-                        "text":"又来上海出差,天气不错哦！！！",
-                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
-                    },
-                    {
-                        "datatime":"17/11/16",
-                        "time":"29天前 北京",
-                        "text":"北京的雾霾真重啊！！！",
-                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
+                        "datatime":"17/11/02",
+                        "time":"17天前 杭州",
+                        "text":"我看到马云爸爸了！！！",
+                        "images":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4153095080,189187872&fm=27&gp=0.jpg"
                     },
                      {
-                        "datatime":"17/11/17",
-                        "time":"50天前 西藏",
-                        "text":"好想在这里呆一辈子哦！！！",
-                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
+                        "datatime":"17/09/17",
+                        "time":"很多天前 西藏",
+                        "text":"好想再去一次哦！！！",
+                        "images":"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=18806525,3320222135&fm=27&gp=0.jpg"
                     },
                     {
-                        "datatime":"17/11/18",
-                        "time":"很多天前 杭州",
-                        "text":"我看到马云爸爸了！！！",
-                        "images":"http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG,http://www.daiwei.org/vue/image/17-10-22/IMG_1049.JPG"
+                        "datatime":"17/08/04",
+                        "time":"很多天前 上海",
+                        "text":"又来上海出差,天气不错哦！！！",
+                        "images":"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=800491642,2726428371&fm=27&gp=0.jpg"
+                    },
+                    {
+                        "datatime":"17/06/16",
+                        "time":"很多天前 北京",
+                        "text":"北京的雾霾真重啊！！！",
+                        "images":"http://img4.imgtn.bdimg.com/it/u=1937135053,1222175391&fm=27&gp=0.jpg"
                     }
                 ]
           }
