@@ -246,7 +246,7 @@ body, p, div, span, a, img, strong {
     margin-top: 15px;
 }
 .status_img img{
-    width: 48%;
+    width: 100%;
     height: auto;
     float: left;
     margin-right: 2%;
