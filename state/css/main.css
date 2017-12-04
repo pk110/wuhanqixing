@@ -242,12 +242,13 @@ body, p, div, span, a, img, strong {
 }
 .status_img{
     width: 50%;
-    height: 100px;
+    height: 100%;
     margin-top: 15px;
+    display: inline-block;
 }
 .status_img img{
     width: 100%;
-    height: auto;
+    height: 100%;
     float: left;
     margin-right: 2%;
     border-radius: 5px;
