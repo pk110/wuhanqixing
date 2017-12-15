@@ -199,8 +199,8 @@ body, p, div, span, a, img, strong {
 }
 
 .home .rowup {
-    -webkit-animation: 12s rowup linear infinite normal;
-    animation: 12s rowup linear infinite normal;
+    -webkit-animation: 15s rowup linear infinite normal;
+    animation: 15s rowup linear infinite normal;
     position: relative;
     margin-top: 20px;
 }
