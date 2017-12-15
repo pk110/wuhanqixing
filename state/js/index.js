@@ -44,6 +44,8 @@
                         $('.weatherBox').fadeOut();
                         a = false;
                 }else{
+                    var myDate = new Date();
+                    var currentDate = myDate.toLocaleDateString();
                         $.ajax({
                             url:"./../../json/weather.json",
                             // url:"http://api.map.baidu.com/telematics/v3/weather?output=json&ak=0A5bc3c4fb543c8f9bc54b77bc155724",
@@ -53,7 +55,7 @@
                         // dataType: 'jsonp',
                         success:function(data){
                             // //百度那边的 数据已经回来，我现在要解析这个数据.
-                            $('.weatherBox_one span').text(data.weather.today);
+                            $('.weatherBox_one span').text(currentDate);
                             $('.weatherBox_one p').text(data.weather.status+'   '+data.weather.temperature);
                             var weatherData = data.weather.statusArray.map(function(a,b){
                                 if(b == 0){
