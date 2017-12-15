@@ -177,12 +177,12 @@ body, p, div, span, a, img, strong {
 
 @keyframes rowup {
     0% {
-        -webkit-transform: translate3d(0, 290px, 0);
-        transform: translate3d(0, 290px, 0);
+        -webkit-transform: translate3d(0, 200px, 0);
+        transform: translate3d(0, 200px, 0);
     }
     100% {
-        -webkit-transform: translate3d(0, -250px, 0);
-        transform: translate3d(0, -250px, 0);
+        -webkit-transform: translate3d(0, -280px, 0);
+        transform: translate3d(0, -280px, 0);
         display: none;
     }
 }
