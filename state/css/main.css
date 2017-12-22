@@ -495,7 +495,7 @@ body, p, div, span, a, img, strong {
 
 @keyframes breath {
   0% {
-      margin-top:0px;
+      margin-top:1px;
       width:20px;
       height:20px;
       border-radius:10px;
@@ -503,7 +503,7 @@ body, p, div, span, a, img, strong {
   }
 
   20% {
-      margin-top:1px;
+      margin-top:2px;
       width:19px;
       height:19px;
       border-radius:9.5px;
@@ -511,7 +511,7 @@ body, p, div, span, a, img, strong {
   }
 
   40% {
-      margin-top:2px;
+      margin-top:3px;
       width:18px;
       height:18px;
       border-radius:9px;
@@ -519,7 +519,7 @@ body, p, div, span, a, img, strong {
   }
 
   60% {
-      margin-top:3px;
+      margin-top:4px;
       width:17px;
       height:17px;
       border-radius:8.5px;
@@ -527,7 +527,7 @@ body, p, div, span, a, img, strong {
   }
 
   80% {
-      margin-top:4px;
+      margin-top:5px;
       width:16px;
       height:16px;
       border-radius:8px;
@@ -535,7 +535,7 @@ body, p, div, span, a, img, strong {
   }
 
   100% {
-      margin-top:5px;
+      margin-top:6px;
       width:15px;
       height:15px;
       border-radius:7.5px;
@@ -545,7 +545,7 @@ body, p, div, span, a, img, strong {
 
 @-webkit-keyframes breath {
   0% {
-      margin-top:0px;
+      margin-top:1px;
       width:20px;
       height:20px;
       border-radius:10px;
@@ -553,7 +553,7 @@ body, p, div, span, a, img, strong {
   }
 
   20% {
-      margin-top:1px;
+      margin-top:2px;
       width:19px;
       height:19px;
       border-radius:9.5px;
@@ -561,7 +561,7 @@ body, p, div, span, a, img, strong {
   }
 
   40% {
-      margin-top:2px;
+      margin-top:3px;
       width:18px;
       height:18px;
       border-radius:9px;
@@ -569,7 +569,7 @@ body, p, div, span, a, img, strong {
   }
 
   60% {
-      margin-top:3px;
+      margin-top:4px;
       width:17px;
       height:17px;
       border-radius:8.5px;
@@ -577,7 +577,7 @@ body, p, div, span, a, img, strong {
   }
 
   80% {
-      margin-top:4px;
+      margin-top:5px;
       width:16px;
       height:16px;
       border-radius:8px;
@@ -585,7 +585,7 @@ body, p, div, span, a, img, strong {
   }
 
   100% {
-      margin-top:5px;
+      margin-top:6px;
       width:15px;
       height:15px;
       border-radius:7.5px;
