@@ -495,52 +495,52 @@ body, p, div, span, a, img, strong {
 
 @keyframes breath {
   0% {
-    box-shadow: 0 0 10px 	#000000;
+    box-shadow: 0 0 0px 	#000000;
   }
 
   20% {
-    box-shadow: 0 0 15px 	#000000;
+    box-shadow: 0 0 5px 	#000000;
   }
 
   40% {
-    box-shadow: 0 0 20px 	#000000;
+    box-shadow: 0 0 10px 	#000000;
   }
 
   60% {
-    box-shadow: 0 0 25px 	#000000;
+    box-shadow: 0 0 15px 	#000000;
   }
 
   80% {
-    box-shadow: 0 0 30px 	#000000;
+    box-shadow: 0 0 20px 	#000000;
   }
 
   100% {
-    box-shadow: 0 0 35px 	#000000;
+    box-shadow: 0 0 25px 	#000000;
   }
 }
 
 @-webkit-keyframes breath {
   0% {
-    box-shadow: 0 0 10px 	#000000;
+    box-shadow: 0 0 0px 	#000000;
   }
 
   20% {
-    box-shadow: 0 0 15px 	#000000;
+    box-shadow: 0 0 5px 	#000000;
   }
 
   40% {
-    box-shadow: 0 0 20px 	#000000;
+    box-shadow: 0 0 10px 	#000000;
   }
 
   60% {
-    box-shadow: 0 0 25px 	#000000;
+    box-shadow: 0 0 15px 	#000000;
   }
 
   80% {
-    box-shadow: 0 0 30px 	#000000;
+    box-shadow: 0 0 20px 	#000000;
   }
 
   100% {
-    box-shadow: 0 0 35px 	#000000;
+    box-shadow: 0 0 25px 	#000000;
   }
 }
