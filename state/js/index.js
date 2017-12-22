@@ -329,20 +329,21 @@
                 } else if (/(Android)/i.test(navigator.userAgent)) {  
                         alert('执行3d动画！(如没有效果，请在pc端观看！)'); 
                 } else {  
-                        var substrings = $('.container-fluid').css('background-image');
-                        var substringNub = substrings.indexOf('/state/images/');
-                        var img = '.'+substrings.slice(substringNub,-2);
-                        $('.img-flex').fadeIn();
-                        if(document.body.clientWidth <= 640){
-                            fragmentConfigPhone.img = img;
-                            fragmentImg(fragmentConfigPhone);
-                            $('body').css('overflow','hidden');
-                        }else{
-                            fragmentConfigPc.img = img;
-                            fragmentImg(fragmentConfigPc);
-                            $('body').css('overflow','hidden');
-                        }
-                }; 
+                        
+                };
+                var substrings = $('.container-fluid').css('background-image');
+                var substringNub = substrings.indexOf('/state/images/');
+                var img = '.'+substrings.slice(substringNub,-2);
+                $('.img-flex').fadeIn();
+                if(document.body.clientWidth <= 640){
+                    fragmentConfigPhone.img = img;
+                    fragmentImg(fragmentConfigPhone);
+                    $('body').css('overflow','hidden');
+                }else{
+                    fragmentConfigPc.img = img;
+                    fragmentImg(fragmentConfigPc);
+                    $('body').css('overflow','hidden');
+                } 
             }
 
             // 点击任意的隐藏图片
