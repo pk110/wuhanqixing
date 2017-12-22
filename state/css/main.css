@@ -494,9 +494,7 @@ body, p, div, span, a, img, strong {
 }
 
 @keyframes breath {
-  0% {
-      position:relative;
-      top:0;
+ 0% {
       width:20px;
       height:20px;
       border-radius:10px;
@@ -504,8 +502,6 @@ body, p, div, span, a, img, strong {
   }
 
   20% {
-      position:relative;
-      top:1px;
       width:19px;
       height:19px;
       border-radius:9.5px;
@@ -513,8 +509,6 @@ body, p, div, span, a, img, strong {
   }
 
   40% {
-      position:relative;
-      top:2px;
       width:18px;
       height:18px;
       border-radius:9px;
@@ -522,8 +516,6 @@ body, p, div, span, a, img, strong {
   }
 
   60% {
-      position:relative;
-      top:3px;
       width:17px;
       height:17px;
       border-radius:8.5px;
@@ -531,8 +523,6 @@ body, p, div, span, a, img, strong {
   }
 
   80% {
-      position:relative;
-      top:4px;
       width:16px;
       height:16px;
       border-radius:8px;
@@ -540,8 +530,6 @@ body, p, div, span, a, img, strong {
   }
 
   100% {
-      position:relative;
-      top:5px;
       width:15px;
       height:15px;
       border-radius:7.5px;
@@ -551,8 +539,6 @@ body, p, div, span, a, img, strong {
 
 @-webkit-keyframes breath {
   0% {
-      position:relative;
-      top:0;
       width:20px;
       height:20px;
       border-radius:10px;
@@ -560,8 +546,6 @@ body, p, div, span, a, img, strong {
   }
 
   20% {
-      position:relative;
-      top:1px;
       width:19px;
       height:19px;
       border-radius:9.5px;
@@ -569,8 +553,6 @@ body, p, div, span, a, img, strong {
   }
 
   40% {
-      position:relative;
-      top:2px;
       width:18px;
       height:18px;
       border-radius:9px;
@@ -578,8 +560,6 @@ body, p, div, span, a, img, strong {
   }
 
   60% {
-      position:relative;
-      top:3px;
       width:17px;
       height:17px;
       border-radius:8.5px;
@@ -587,8 +567,6 @@ body, p, div, span, a, img, strong {
   }
 
   80% {
-      position:relative;
-      top:4px;
       width:16px;
       height:16px;
       border-radius:8px;
@@ -596,8 +574,6 @@ body, p, div, span, a, img, strong {
   }
 
   100% {
-      position:relative;
-      top:5px;
       width:15px;
       height:15px;
       border-radius:7.5px;
