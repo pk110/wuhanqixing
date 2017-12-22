@@ -254,11 +254,11 @@ body, p, div, span, a, img, strong {
     border-radius: 5px;
 }
 .breathImg{
-      animation-name: breath;
+/*       animation-name: breath;
       animation-duration: 2s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
-      animation-direction: alternate;
+      animation-direction: alternate; */
 }
 /*滚动条设置*/
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -493,75 +493,45 @@ body, p, div, span, a, img, strong {
     }
 }
 
-@keyframes breath {
+/* @keyframes breath {
  0% {
-/*       width:20px;
-      height:20px; */
-     transform:scale(1,1);
-    -ms-transform:scale(1,1); 	/* IE 9 */
-    -moz-transform:scale(1,1); 	/* Firefox */
-    -webkit-transform:scale(1,1); /* Safari 和 Chrome */
-    -o-transform:scale(1,1); 
+      width:20px;
+      height:20px;
     border-radius:10px;
     box-shadow: 0 0 0px 	#000000;
   }
 
   20% {
-/*       width:19px;
-      height:19px; */
-           transform:scale(1.1,1.1);
-    -ms-transform:scale(1.1,1.1); 	/* IE 9 */
-    -moz-transform:scale(1.1,1.1); 	/* Firefox */
-    -webkit-transform:scale(1.1,1.1); /* Safari 和 Chrome */
-    -o-transform:scale(1.1,1.1); 
+      width:19px;
+      height:19px; 
       border-radius:9.5px;
     box-shadow: 0 0 1px 	#000000;
   }
 
   40% {
-/*       width:18px;
-      height:18px; */
-           transform:scale(1.2,1.2);
-    -ms-transform:scale(1.2,1.2); 	/* IE 9 */
-    -moz-transform:scale(1.2,1.2); 	/* Firefox */
-    -webkit-transform:scale(1.2,1.2); /* Safari 和 Chrome */
-    -o-transform:scale(1.2,1.2); 
+      width:18px;
+      height:18px; 
       border-radius:9px;
     box-shadow: 0 0 2px 	#000000;
   }
 
   60% {
-/*       width:17px;
-      height:17px; */
-           transform:scale(1.3,1.3);
-    -ms-transform:scale(1.3,1.3); 	/* IE 9 */
-    -moz-transform:scale(1.3,1.3); 	/* Firefox */
-    -webkit-transform:scale(1.3,1.3); /* Safari 和 Chrome */
-    -o-transform:scale(1.3,1.3); 
+      width:17px;
+      height:17px;
       border-radius:8.5px;
     box-shadow: 0 0 3px 	#000000;
   }
 
   80% {
-/*       width:16px;
-      height:16px; */
-           transform:scale(1.4,1.4);
-    -ms-transform:scale(1.4,1.4); 	/* IE 9 */
-    -moz-transform:scale(1.4,1.4); 	/* Firefox */
-    -webkit-transform:scale(1.4,1.4); /* Safari 和 Chrome */
-    -o-transform:scale(1.4,1.4);
+      width:16px;
+      height:16px;
       border-radius:8px;
     box-shadow: 0 0 4px 	#000000;
   }
 
   100% {
-/*       width:15px;
-      height:15px; */
-           transform:scale(1.5,1.5);
-    -ms-transform:scale(1.5,1.5); 	/* IE 9 */
-    -moz-transform:scale(1.5,1.5); 	/* Firefox */
-    -webkit-transform:scale(1.5,1.5); /* Safari 和 Chrome */
-    -o-transform:scale(1.5,1.5);
+      width:15px;
+      height:15px;
       border-radius:7.5px;
     box-shadow: 0 0 5px 	#000000;
   }
@@ -569,74 +539,44 @@ body, p, div, span, a, img, strong {
 
 @-webkit-keyframes breath {
  0% {
-/*       width:20px;
-      height:20px; */
-     transform:scale(1,1);
-    -ms-transform:scale(1,1); 	/* IE 9 */
-    -moz-transform:scale(1,1); 	/* Firefox */
-    -webkit-transform:scale(1,1); /* Safari 和 Chrome */
-    -o-transform:scale(1,1); 
+      width:20px;
+      height:20px;
     border-radius:10px;
     box-shadow: 0 0 0px 	#000000;
   }
 
   20% {
-/*       width:19px;
-      height:19px; */
-           transform:scale(1.1,1.1);
-    -ms-transform:scale(1.1,1.1); 	/* IE 9 */
-    -moz-transform:scale(1.1,1.1); 	/* Firefox */
-    -webkit-transform:scale(1.1,1.1); /* Safari 和 Chrome */
-    -o-transform:scale(1.1,1.1); 
+      width:19px;
+      height:19px; 
       border-radius:9.5px;
     box-shadow: 0 0 1px 	#000000;
   }
 
   40% {
-/*       width:18px;
-      height:18px; */
-           transform:scale(1.2,1.2);
-    -ms-transform:scale(1.2,1.2); 	/* IE 9 */
-    -moz-transform:scale(1.2,1.2); 	/* Firefox */
-    -webkit-transform:scale(1.2,1.2); /* Safari 和 Chrome */
-    -o-transform:scale(1.2,1.2); 
+      width:18px;
+      height:18px; 
       border-radius:9px;
     box-shadow: 0 0 2px 	#000000;
   }
 
   60% {
-/*       width:17px;
-      height:17px; */
-           transform:scale(1.3,1.3);
-    -ms-transform:scale(1.3,1.3); 	/* IE 9 */
-    -moz-transform:scale(1.3,1.3); 	/* Firefox */
-    -webkit-transform:scale(1.3,1.3); /* Safari 和 Chrome */
-    -o-transform:scale(1.3,1.3); 
+      width:17px;
+      height:17px;
       border-radius:8.5px;
     box-shadow: 0 0 3px 	#000000;
   }
 
   80% {
-/*       width:16px;
-      height:16px; */
-           transform:scale(1.4,1.4);
-    -ms-transform:scale(1.4,1.4); 	/* IE 9 */
-    -moz-transform:scale(1.4,1.4); 	/* Firefox */
-    -webkit-transform:scale(1.4,1.4); /* Safari 和 Chrome */
-    -o-transform:scale(1.4,1.4);
+      width:16px;
+      height:16px;
       border-radius:8px;
     box-shadow: 0 0 4px 	#000000;
   }
 
   100% {
-/*       width:15px;
-      height:15px; */
-           transform:scale(1.5,1.5);
-    -ms-transform:scale(1.5,1.5); 	/* IE 9 */
-    -moz-transform:scale(1.5,1.5); 	/* Firefox */
-    -webkit-transform:scale(1.5,1.5); /* Safari 和 Chrome */
-    -o-transform:scale(1.5,1.5);
+      width:15px;
+      height:15px;
       border-radius:7.5px;
     box-shadow: 0 0 5px 	#000000;
   }
-}
+} */
