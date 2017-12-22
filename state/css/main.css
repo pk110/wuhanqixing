@@ -255,7 +255,7 @@ body, p, div, span, a, img, strong {
 }
 .breathImg{
       animation-name: breath;
-      animation-duration: 3s;
+      animation-duration: 2s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
       animation-direction: alternate;
@@ -499,23 +499,23 @@ body, p, div, span, a, img, strong {
   }
 
   20% {
-    box-shadow: 0 0 20px 	#000000;
+    box-shadow: 0 0 15px 	#000000;
   }
 
   40% {
-    box-shadow: 0 0 30px 	#000000;
+    box-shadow: 0 0 20px 	#000000;
   }
 
   60% {
-    box-shadow: 0 0 40px 	#000000;
+    box-shadow: 0 0 25px 	#000000;
   }
 
   80% {
-    box-shadow: 0 0 50px 	#000000;
+    box-shadow: 0 0 30px 	#000000;
   }
 
   100% {
-    box-shadow: 0 0 60px 	#000000;
+    box-shadow: 0 0 35px 	#000000;
   }
 }
 
@@ -525,22 +525,22 @@ body, p, div, span, a, img, strong {
   }
 
   20% {
-    box-shadow: 0 0 20px 	#000000;
+    box-shadow: 0 0 15px 	#000000;
   }
 
   40% {
-    box-shadow: 0 0 30px 	#000000;
+    box-shadow: 0 0 20px 	#000000;
   }
 
   60% {
-    box-shadow: 0 0 40px	#000000;
+    box-shadow: 0 0 25px 	#000000;
   }
 
   80% {
-    box-shadow: 0 0 50px 	#000000;
+    box-shadow: 0 0 30px 	#000000;
   }
 
   100% {
-    box-shadow: 0 0 60px 	#000000;
+    box-shadow: 0 0 35px 	#000000;
   }
 }
