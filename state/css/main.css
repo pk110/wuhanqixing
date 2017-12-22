@@ -254,7 +254,6 @@ body, p, div, span, a, img, strong {
     border-radius: 5px;
 }
 .breathImg{
-      margin-top:2px;
       animation-name: breath;
       animation-duration: 2s;
       animation-timing-function: linear;
