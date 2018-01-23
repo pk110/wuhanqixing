@@ -3,89 +3,67 @@
 <head>
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <title>背着吉他的蝙蝠侠</title>
+    <title>武汉骑行</title>
     <link rel="shortcut icon" href="/logo.ico">
-	<link rel="stylesheet" type="text/css" href="./state/css/popup.css">
     <link rel="stylesheet" href="./state/css/main.css">
-    <!--<script src="./state/js/jquery.js"></script>-->
-    <script src="./state/js/jquery.min.js"></script>
-    <script type="text/javascript" src="./state/js/fragment.js"></script>
+    <link rel="stylesheet" href="./state/css/bootstrap.min.css">
 </head>
-<style>
-    
-</style>
 <body>
-    <audio style="display:none; height: 0" id="bg-music" src="./state/pengkai.mp3" autoplay loop></audio>
-    <div class="img-flex" style="z-index:99999;" onclick="fadeImg()"></div>
-    <div class="container-fluid" style="opacity: 1">
-        <img src="./state/images/loading.gif" alt="" class="loading" style="display: none;">
-        <div class="header">
-            <div class="header-left">
-                <img src="./state/images/menu.png" alt="" onclick="downMenu()">
-                <ul>
-                    <li class="on">首页</li>
-                    <li>状态</li>
-                    <li>音乐</li>
-                    <li>博客</li>
-                    <li>项目</li>
-                    <li><a href="https://github.com/pk110">github</a></li>
-                </ul>
-            </div>
-            <div class="header-right">
-                <ul>
-                    <li><img style="padding-bottom:10px;" src="./state/images/set.png" alt="" onclick="setting()"></li>
-                    <li><img style="border-radius:100%;" src="./state/images/header.png" alt=""  class="breathImg"></li>
-                    <li onclick="findWeather()">武汉市</li>
-                    <div class="weatherBox" style="display: none;">
-                        <div class="weatherBox_one">
-                            <h1>今天</h1>
-                            <span></span>
-                            <p></p>
-                        </div>
-                        <div class="weatherBox_two">
-                            
-                        </div>
-                    </div>
-                </ul>
-            </div>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
         </div>
-        <div class="setting" style="display: none;opacity: 0;">
-            <ul>
-                <li><h2>设置</h2></li>
-                <li>
-                    <span>透明度</span>
-                    <input type="text" name="number" value="0.9" onblur="upperCase()">
-                </li>
-                <p style="width: 60px;color:#fff;margin: 13px auto;cursor: pointer;" onclick="againSetting()">重置设置</p>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
             </ul>
-        </div>
-        <div class="home">
-            <div class="cc rowup">
-                <div class="item">公司：武汉斗鱼网络科技有限公司</div>
-                <div class="item">简介：全栈开发工程师  致力于开发与重构公司现有的项目产品！  ——— 一个渴望自由却不甘于现状的人</div>
-                <div class="item">个性签名：视野停留在技术上，你也许是一个好的开发者，但你也仅仅是一个开发者！</div>
-                <div class="item">新浪微博：<a href="//weibo.com/u/3826303397">//weibo.com/u/3826303397</a></div>
-                <div class="item">github: <a href="https://github.com/pk110">https://github.com/pk110</a></div>
-<!--                 <div class="item">网易云邮箱：13027106488@163.com</div> -->
-	    	<div class="item">个人测试网站：<a href="www.pengkai.xin">www.pengkai.xin</a></div>
-	    	<div class="item">个人公众号：武汉骑行 （小程序正在上线中，敬请期待哦）</div>
-	        <div class="item">骑行交流群：341541058</div>
+            </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+            <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
             </div>
-        </div>
-        <div class="status"  style="display: none"></div>
-        <div class="footer">
-            <div class="footer_container">
-                <div class="footer_container_top">
-                    <ul>
-                        <li><img src="./state/images/right.png" alt="" onclick="leftImg()" class="right"></li>
-                        <li><img src="./state/images/3d.png" alt="" onclick="show3d()"></li>
-                        <li><img src="./state/images/left.png" alt="" onclick="rightImg()" class="left disabled"></li>
-                    </ul>
-                </div>
-                <div class="footer_container_bottom"><p>由  背着吉他的蝙蝠侠  提供 | Copyright © 2017-2018 pengkai.xin</p></div>
-            </div>
-        </div>
-    </div>	
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+            </li>
+        </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+    <script src="./state/js/jquery.min.js"></script>
+    <script src="./state/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./state/js/index.js"></script>
 </body>
 </html>
